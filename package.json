@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist --cname nicolaspereira.me"
   },
-  "homepage": "https://nicolass2001.github.io",
+  "homepage": "https://nicolaspereira.me",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
