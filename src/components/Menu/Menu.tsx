@@ -1,30 +1,20 @@
-import styles from "./Menu.module.css";
-import { Link } from "react-router";
+import "./Menu.css";
+import NavLink from "../NavLink/NavLink";
 
 function Menu() {
   return (
-    <div className={styles.container}>
-      <div className={styles.text}>
-        <h1>Hello World!</h1>
-        <p>Welcome to my portfolio page. More coming soon!</p>
-      </div>
+    <header className="container">
+      <h1>Nicolas Pereira</h1>
+      <p>Developer</p>
       <nav>
-        <ul className={styles.menu}>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
+        <ul className="menu">
+          <NavLink link="/">Home</NavLink>
+          <NavLink link="/about">About</NavLink>
+          <NavLink link="/projects">Projects</NavLink>
+          <NavLink link="/contact">Contact</NavLink>
         </ul>
       </nav>
-    </div>
+    </header>
   );
 }
 

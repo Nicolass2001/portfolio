@@ -1,4 +1,4 @@
-import styles from "./Content.module.css";
+import "./Content.css";
 import { Route, Routes } from "react-router";
 
 function Content() {
@@ -7,7 +7,7 @@ function Content() {
       <Route
         path="/"
         element={
-          <div className={styles.joke}>
+          <div className="joke">
             CSS <br />
             IS AWESOME
           </div>
