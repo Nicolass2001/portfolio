@@ -16,13 +16,13 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/Nicolass2001/Nicolass2001.github.io.git
+git clone https://github.com/Nicolass2001/portfolio
 ```
 
 2. Navigate to the project directory:
 
 ```sh
-cd Nicolass2001.github.io
+cd portfolio
 ```
 
 3. Install the dependencies:
