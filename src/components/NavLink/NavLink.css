@@ -1,5 +1,6 @@
 li {
   height: 24px;
+  width: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
