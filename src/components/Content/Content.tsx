@@ -5,22 +5,24 @@ import { Route, Routes } from "react-router";
 
 function Content() {
   return (
-    <main className="content">
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <div className="joke">
-              CSS <br />
-              IS AWESOME
-            </div>
-          }
-        />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<h1>Projects</h1>} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </main>
+    <div className="content-container">
+      <main className="content">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div className="joke">
+                CSS <br />
+                IS AWESOME
+              </div>
+            }
+          />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<h1>Projects</h1>} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+    </div>
   );
 }
 

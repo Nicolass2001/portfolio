@@ -3,7 +3,20 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.content-container {
+  display: block;
   padding: 40px;
+  overflow-y: scroll;
+  /* Hide scroll bar */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  -webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
 }
 
 .content p {
