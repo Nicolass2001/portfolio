@@ -7,7 +7,7 @@ type RightLinkProps = {
 
 function RightLink({ link, text }: RightLinkProps) {
   return (
-    <a className="right-link" href={link}>
+    <a className="right-link" href={link} target="_blank">
       {text} ↗
     </a>
   );

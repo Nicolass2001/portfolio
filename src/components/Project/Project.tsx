@@ -13,7 +13,7 @@ type ProjectProps = {
 function Project({ name, link, description }: ProjectProps) {
   return (
     <>
-      <a className="project-name" href={link}>
+      <a className="project-name" href={link} target="_blank">
         <h1>{name}</h1>
       </a>
       {description.map((item, index) => (
