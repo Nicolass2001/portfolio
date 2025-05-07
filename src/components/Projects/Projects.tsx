@@ -2,32 +2,36 @@ import Project from "../Project/Project";
 
 const projects = [
   {
-    name: "Project 1",
-    link: "https://example.com/project1",
+    name: "FinTrack",
+    link: "http://fintrack.nicolaspereira.me/",
     description: [
       {
-        text: "GitHub",
-        link: "https://example.com/project1",
+        text: "GitHub Frontend",
+        link: "https://github.com/Nicolass2001/fintrack-frontend",
+      },
+      {
+        text: "GitHub Backend",
+        link: "https://github.com/Nicolass2001/fintrack-backend",
       },
     ],
   },
   {
-    name: "Project 2",
-    link: "https://example.com/project1",
+    name: "This Portfolio",
+    link: "https://nicolaspereira.me/",
     description: [
       {
         text: "GitHub",
-        link: "https://example.com/project2",
+        link: "https://github.com/Nicolass2001/portfolio",
       },
     ],
   },
   {
-    name: "Project 3",
-    link: "https://example.com/project1",
+    name: "Terminal Portfolio",
+    link: "https://terminal.nicolaspereira.me/",
     description: [
       {
         text: "GitHub",
-        link: "https://example.com/project3",
+        link: "https://github.com/Nicolass2001/terminal-portfolio",
       },
     ],
   },
