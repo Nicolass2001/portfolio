@@ -1,17 +1,13 @@
-import "./Contact.css";
+import RightLink from "../Links/RightLink";
 
 function Contact() {
   return (
     <>
-      <a className="right-link" href="https://github.com/Nicolass2001">
-        GitHub ↗
-      </a>
-      <a
-        className="right-link"
-        href="https://www.linkedin.com/in/nicolas-pereira-9b4b83259/"
-      >
-        LinkedIn ↗
-      </a>
+      <RightLink link="https://github.com/Nicolass2001" text="GitHub" />
+      <RightLink
+        link="https://www.linkedin.com/in/nicolas-pereira-9b4b83259"
+        text="LinkedIn"
+      />
     </>
   );
 }

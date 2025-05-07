@@ -1,5 +1,5 @@
 .right-link {
-  box-shadow: inset 100px 0 0 0 var(--color-background);
+  box-shadow: inset 400px 0 0 0 var(--color-background);
   background-color: var(--color-primary);
   color: var(--color-primary);
   margin: 0 -0.25rem;

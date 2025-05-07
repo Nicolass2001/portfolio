@@ -1,5 +1,5 @@
 import "./Menu.css";
-import NavLink from "../NavLink/NavLink";
+import NavLink from "../Links/NavLink";
 
 function Menu() {
   return (

@@ -1,13 +1,12 @@
 import "./NavLink.css";
 import { NavLink as RRNavLink } from "react-router";
 
-function NavLink({
-  link,
-  children,
-}: {
+type NavLinkProps = {
   link: string;
   children: React.ReactNode;
-}) {
+};
+
+function NavLink({ link, children }: NavLinkProps) {
   return (
     <li>
       <RRNavLink to={link} className="link">
