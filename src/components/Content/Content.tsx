@@ -1,5 +1,6 @@
 import About from "../About/About";
 import Contact from "../Contact/Contact";
+import Projects from "../Projects/Projects";
 import "./Content.css";
 import { Route, Routes } from "react-router";
 
@@ -18,7 +19,7 @@ function Content() {
             }
           />
           <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<h1>Projects</h1>} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
