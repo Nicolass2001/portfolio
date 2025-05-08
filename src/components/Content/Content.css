@@ -1,0 +1,35 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.content-container {
+  display: block;
+  padding: 40px;
+  overflow-y: scroll;
+  /* Hide scroll bar */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  -webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+}
+
+.content p {
+  max-width: 350px;
+}
+
+.joke {
+  text-align: left;
+  border: 3px solid var(--color-primary);
+  display: block;
+  padding: 10px;
+  height: 130px;
+  width: 90px;
+  font-size: 30px;
+  margin: auto;
+}

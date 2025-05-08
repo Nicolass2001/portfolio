@@ -1,0 +1,13 @@
+.right-link {
+  box-shadow: inset 400px 0 0 0 var(--color-background);
+  background-color: var(--color-primary);
+  color: var(--color-primary);
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.right-link:hover {
+  box-shadow: inset 0 0 0 0 var(--color-background);
+  color: var(--color-black);
+}
